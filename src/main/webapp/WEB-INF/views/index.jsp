@@ -9,14 +9,10 @@
 <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-gJWVjz180MvwCrGGkC4xE5FjhWkTxHIR/+GgT8j2B3KKMgh6waEjPgzzh7lL7JZT" crossorigin="anonymous">
 
 <!-- jQuery -->
-<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
- -->
- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 
 
 <!-- linking page with javascript file -->
-<!-- <script src="js/script.js" type="text/javascript"></script>
- -->
  <script src="script.js"></script>
 
 <!-- LinkedIn Scripts  -->
@@ -29,7 +25,7 @@ lang: en_US
 
 
 <!-- Facebook Script -->
-<script>
+<!-- <script>
 $(document).ready(function() {
     // Execute some code here:
     // use jQuery getScript() method to import the SDK instead of importing FB JS SDK w/ default async script
@@ -44,7 +40,7 @@ $.getScript('https://connect.facebook.net/en_US/sdk.js', function(){
 });
 // end jQuery block used to import FB JavaScript SDK
   });
-  </script>
+  </script> -->
 
 </head>
 <body>
@@ -53,8 +49,16 @@ ${homepage}
 
 <br>
 <br>
-<!-- <a class="btn btn-primary" href="https://www.linkedin.com/oauth/v2/authorization/response_type=code/client_id=786jvytwfvr5ck&redirect_uri=https://localhost:8080">Log In With LinkedIn</a>
+<!-- <a class="btn btn-primary"  href="https://www.linkedin.com/oauth/v2/authorization/response_type=code/client_id=786jvytwfvr5ck&redirect_uri=https://localhost:8080">Log In With LinkedIn</a>
  -->
+ 	
+ 
+<br>
+<br>
+
+<button class="btn btn-primary" onclick="logInLinkedIn()">Log In With LinkedIn</button>
+
+
  
  <script type="in/Login">
 </script>
